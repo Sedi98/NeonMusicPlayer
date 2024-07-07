@@ -208,6 +208,11 @@ body {
   color: #f2f2f2;
 }
 
+
+.footerSpan {
+  color: #6156e2;
+}
+
 @media screen and (max-width: 600px) {
   body {
     padding: 10px;
