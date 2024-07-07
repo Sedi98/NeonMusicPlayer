@@ -2,8 +2,8 @@ const musicsData = [
   {
     name: "Lay All Your Love On Me",
     artist: "ABBA",
-    audioLocation: "../assets/musics/ABBA-Lay All Your Love On Me(Official Lyric Video).mp3",
-    cover: "../assets/covers/layallyourlove.jpg",
+    audioLocation: "./assets/musics/ABBA-Lay All Your Love On Me(Official Lyric Video).mp3",
+    cover: "./assets/covers/layallyourlove.jpg",
   },
   {
     name: "Hymn for the Weekend",
