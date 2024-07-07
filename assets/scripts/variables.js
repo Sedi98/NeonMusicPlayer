@@ -83,9 +83,7 @@ let musicNameText = document.querySelector(".musicNameText");
 let artistNameText = document.querySelector(".artistNameText");
 let progressBar = document.querySelector(".progressBar");
 
-
 let listItems;
-
 
 let equalizerIcon;
 
@@ -95,16 +93,11 @@ let repeatBtn;
 
 let currentMusic = new Audio();
 
-
 let timeInterval;
 
-
 let activeMusicIndex = 0;
-
 
 let isRepeating = false;
 
 let isShuffling = false;
 
-
-let htmlTitle = document.querySelector("htmlTitle");

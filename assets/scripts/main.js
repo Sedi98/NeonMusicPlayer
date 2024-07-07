@@ -26,6 +26,7 @@ function playMusic(index) {
   loadPlayer(index);
   playerControls(index);
   activeMusicIndex = index;
+  document.title = `${musicsData[index].name}`
 
   timeInterval = setInterval(updateProgress, 1000);
 }
