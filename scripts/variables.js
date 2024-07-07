@@ -8,62 +8,62 @@ const musicsData = [
   {
     name: "Hymn for the Weekend",
     artist: "Coldplay",
-    audioLocation: "../assets/musics/Alan Walker vs Coldplay-Hymn For The Weekend.mp3",
-    cover: "../assets/covers/hymnof.jpg",
+    audioLocation: "./assets/musics/Alan Walker vs Coldplay-Hymn For The Weekend.mp3",
+    cover: "./assets/covers/hymnof.jpg",
   },
   {
     name: "Angetenar",
     artist: "Rompasso",
-    audioLocation: "../assets/musics/Angetenar (Original Mix).mp3",
-    cover: "../assets/covers/angetenar.jpg",
+    audioLocation: "./assets/musics/Angetenar (Original Mix).mp3",
+    cover: "./assets/covers/angetenar.jpg",
   },
   {
     name: "Bloody Mary (Remix)",
     artist: "Lady Gaga",
     audioLocation:
-      "../assets/musics/Bloody Mary - Best Part Instrumental (Slowed  Reverb).mp3",
-    cover: "../assets/covers/bloodymary.jpg",
+      "./assets/musics/Bloody Mary - Best Part Instrumental (Slowed  Reverb).mp3",
+    cover: "./assets/covers/bloodymary.jpg",
   },
   {
     name: "Crystals",
     artist: "Isolate.exe & Andrej Simon",
     audioLocation:
-      "../assets/musics/Crystals.mp3",
-    cover: "../assets/covers/crystals.jpg",
+      "./assets/musics/Crystals.mp3",
+    cover: "./assets/covers/crystals.jpg",
   },
   {
     name: "Happy Nation",
     artist: "Ace of Base",
     audioLocation:
-      "../assets/musics/Happy Nation - Ace of Base (Slowed  Reverb).mp3",
-    cover: "../assets/covers/happynation.jpg",
+      "./assets/musics/Happy Nation - Ace of Base (Slowed  Reverb).mp3",
+    cover: "./assets/covers/happynation.jpg",
   },
   {
     name: "In the end",
     artist: "Linkin Park & Mellen Gi",
     audioLocation:
-      "../assets/musics/Linkin Park - In The End (Mellen Gi & Tommee Profitt Remix).mp3",
-    cover: "../assets/covers/intheend.jpeg",
+      "./assets/musics/Linkin Park - In The End (Mellen Gi & Tommee Profitt Remix).mp3",
+    cover: "./assets/covers/intheend.jpeg",
   },
   {
     name: "Little Dark Age",
     artist: "MGMT",
-    audioLocation: "../assets/musics/MGMT - Little Dark Age.mp3",
-    cover: "../assets/covers/littledarkage.jpg",
+    audioLocation: "./assets/musics/MGMT - Little Dark Age.mp3",
+    cover: "./assets/covers/littledarkage.jpg",
   },
   {
     name: "Dark Beach",
     artist: "Pastel Ghost",
     audioLocation:
-      "../assets/musics/Pastel Ghost - Dark beach (Tiktok Version).mp3",
-    cover: "../assets/covers/darkbeach.jpg",
+      "./assets/musics/Pastel Ghost - Dark beach (Tiktok Version).mp3",
+    cover: "./assets/covers/darkbeach.jpg",
   },
   {
     name: "The Lost Soul Down X Lost Soul",
     artist: "NBSPLV",
     audioLocation:
-      "../assets/musics/The Lost Soul Down X Lost Soul.mp3",
-    cover: "../assets/covers/lostsoul.jpg",
+      "./assets/musics/The Lost Soul Down X Lost Soul.mp3",
+    cover: "./assets/covers/lostsoul.jpg",
   },
 
 
@@ -71,8 +71,8 @@ const musicsData = [
     name: "Night Drive",
     artist: "Wilee",
     audioLocation:
-      "../assets/musics/Wilee-Night Drive.mp3",
-    cover: "../assets/covers/nightdrive.jpg",
+      "./assets/musics/Wilee-Night Drive.mp3",
+    cover: "./assets/covers/nightdrive.jpg",
   },
 ];
 
