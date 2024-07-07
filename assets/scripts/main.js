@@ -42,8 +42,8 @@ function loadPlayer(musicIndex) {
       <div class="progress"></div>
     </div>
     <div class="timeSection">
-       <p class="currentTimeText">--:-- </p>
-       <p class="durationText">--:-- </p>
+       <p class="currentTimeText">00:00 </p>
+       <p class="durationText">59:59 </p>
     </div>
     
     <div class="PlayerButtons">
@@ -176,6 +176,13 @@ function musicMarker(index) {
 
   listItems[index].classList.add("activelistItem");
   equalizerIcon[index].style.display="block";
+}
+
+
+function footerYear() {
+  const yearSpan = document.querySelector(".year");
+  const currentYear = new Date().getFullYear();
+  yearSpan.innerHTML = currentYear==2024? '': `-${currentYear}`;
 }
 
 loadMusicList();
