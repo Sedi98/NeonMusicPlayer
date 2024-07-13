@@ -101,3 +101,7 @@ let isRepeating = false;
 
 let isShuffling = false;
 
+
+
+let progressBarContainer;
+

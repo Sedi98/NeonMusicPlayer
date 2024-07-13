@@ -149,6 +149,7 @@ body {
   height: 5px;
   background-color: #f2f2f2;
   border-radius: 10px;
+  cursor: pointer;
 }
 
 .progress {
@@ -156,6 +157,23 @@ body {
   height: 100%;
   background-color: #6156e2;
   border-radius: 10px;
+  position: relative;
+  cursor: pointer;
+}
+
+
+.progress::after {
+  content: "";
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: #6156e2;
+  position: absolute;
+  right: -5px;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+  
 }
 
 .timeSection {

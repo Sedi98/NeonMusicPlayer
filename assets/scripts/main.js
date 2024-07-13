@@ -26,7 +26,7 @@ function playMusic(index) {
   loadPlayer(index);
   playerControls(index);
   activeMusicIndex = index;
-  document.title = `${musicsData[index].name}`
+  document.title = `${musicsData[index].name}`;
 
   timeInterval = setInterval(updateProgress, 1000);
 }
@@ -81,6 +81,23 @@ function loadPlayer(musicIndex) {
     isRepeating = !isRepeating;
     console.log(isRepeating);
   });
+
+  progressBarContainer = document.querySelector(".progressBar");
+  
+  progressBarContainer.addEventListener("click", (e) => {
+   setMusicProgress(e);
+  });
+}
+
+
+function setMusicProgress(event) {
+  currentMusic.pause();
+  const width = progressBarContainer.clientWidth;
+  const clickX = event.offsetX;
+  const duration = currentMusic.duration;
+
+  currentMusic.currentTime = (clickX / width) * duration;
+  currentMusic.play();
 }
 
 function updateProgress() {
@@ -172,18 +189,17 @@ function musicMarker(index) {
 
   for (let i = 0; i < listItems.length; i++) {
     listItems[i].classList.remove("activelistItem");
-    equalizerIcon[i].style.display="none";
+    equalizerIcon[i].style.display = "none";
   }
 
   listItems[index].classList.add("activelistItem");
-  equalizerIcon[index].style.display="block";
+  equalizerIcon[index].style.display = "block";
 }
-
 
 function footerYear() {
   const yearSpan = document.querySelector(".year");
   const currentYear = new Date().getFullYear();
-  yearSpan.innerHTML = currentYear==2024? '': `-${currentYear}`;
+  yearSpan.innerHTML = currentYear == 2024 ? "" : `-${currentYear}`;
 }
 
 loadMusicList();
